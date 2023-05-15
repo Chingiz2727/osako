@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A4AF1ADA2A11FDE4008410D2 /* CarInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF1AD92A11FDE4008410D2 /* CarInfoViewModel.swift */; };
+		A4AF1ADD2A11FE00008410D2 /* CarInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF1ADC2A11FE00008410D2 /* CarInfoViewController.swift */; };
+		A4AF1ADF2A11FE0F008410D2 /* CarInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF1ADE2A11FE0F008410D2 /* CarInfoView.swift */; };
+		A4AF1AE32A120754008410D2 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF1AE22A120754008410D2 /* Car.swift */; };
+		A4AF1AE52A120769008410D2 /* Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF1AE42A120769008410D2 /* Convertible.swift */; };
+		A4AF1AE82A120B34008410D2 /* CarInfoTableDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF1AE72A120B34008410D2 /* CarInfoTableDataSource.swift */; };
+		A4AF1AEB2A120DCA008410D2 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4AF1AEA2A120DCA008410D2 /* LoadingView.swift */; };
+		A4D254DC27FDE0C1002D1034 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D254DB27FDE0C1002D1034 /* AppDelegate.swift */; };
+		A4D254E027FDE0C1002D1034 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D254DF27FDE0C1002D1034 /* ViewController.swift */; };
+		A4D254E327FDE0C1002D1034 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D254E127FDE0C1002D1034 /* Main.storyboard */; };
+		A4D254E527FDE0C4002D1034 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A4D254E427FDE0C4002D1034 /* Assets.xcassets */; };
+		A4D254E827FDE0C4002D1034 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A4D254E627FDE0C4002D1034 /* LaunchScreen.storyboard */; };
+		A4D4A24E2A115C4E00632111 /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4A24D2A115C4E00632111 /* CarView.swift */; };
+		A4D4A2512A115FDD00632111 /* CarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4A2502A115FDD00632111 /* CarViewController.swift */; };
+		A4D4A2542A116F2E00632111 /* PopUpHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4A2532A116F2E00632111 /* PopUpHandler.swift */; };
+		A4D4A25A2A116FC800632111 /* CarWebDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4A2592A116FC800632111 /* CarWebDelegate.swift */; };
+		A4D4A2E72A117C8200632111 /* FieldValueHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4D4A2E62A117C8200632111 /* FieldValueHandler.swift */; };
+		A4DBE7432824DA4E00D8404D /* UGOUIKit in Frameworks */ = {isa = PBXBuildFile; productRef = A4DBE7422824DA4E00D8404D /* UGOUIKit */; };
+		A4DBE7562825104100D8404D /* InputMask in Frameworks */ = {isa = PBXBuildFile; productRef = A4DBE7552825104100D8404D /* InputMask */; };
+		A4DBE7582825133A00D8404D /* UGOCore in Frameworks */ = {isa = PBXBuildFile; productRef = A4DBE7572825133A00D8404D /* UGOCore */; };
+		A4DBE75C2829598200D8404D /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4DBE75B2829598200D8404D /* MainNavigationController.swift */; };
+		CDB9ED3BA28EE16CDC88CA32 /* Pods_UGO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6531E848644876939971E49A /* Pods_UGO.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08F48152BDA712BF7E8DB0C8 /* Pods-UGO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UGO.debug.xcconfig"; path = "Target Support Files/Pods-UGO/Pods-UGO.debug.xcconfig"; sourceTree = "<group>"; };
+		6531E848644876939971E49A /* Pods_UGO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UGO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4AF1AD92A11FDE4008410D2 /* CarInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoViewModel.swift; sourceTree = "<group>"; };
+		A4AF1ADC2A11FE00008410D2 /* CarInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoViewController.swift; sourceTree = "<group>"; };
+		A4AF1ADE2A11FE0F008410D2 /* CarInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoView.swift; sourceTree = "<group>"; };
+		A4AF1AE22A120754008410D2 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		A4AF1AE42A120769008410D2 /* Convertible.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Convertible.swift; sourceTree = "<group>"; };
+		A4AF1AE72A120B34008410D2 /* CarInfoTableDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfoTableDataSource.swift; sourceTree = "<group>"; };
+		A4AF1AEA2A120DCA008410D2 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		A4D254D827FDE0C1002D1034 /* UGO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UGO.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A4D254DB27FDE0C1002D1034 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A4D254DF27FDE0C1002D1034 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A4D254E227FDE0C1002D1034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A4D254E427FDE0C4002D1034 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A4D254E727FDE0C4002D1034 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A4D254E927FDE0C4002D1034 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A4D254EF27FDE18C002D1034 /* UGOCore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = UGOCore; path = Packages/UGOCore; sourceTree = "<group>"; };
+		A4D254F327FDE1DB002D1034 /* UGOUIKit */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = UGOUIKit; path = Packages/UGOUIKit; sourceTree = "<group>"; };
+		A4D4A24D2A115C4E00632111 /* CarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarView.swift; sourceTree = "<group>"; };
+		A4D4A2502A115FDD00632111 /* CarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewController.swift; sourceTree = "<group>"; };
+		A4D4A2532A116F2E00632111 /* PopUpHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpHandler.swift; sourceTree = "<group>"; };
+		A4D4A2592A116FC800632111 /* CarWebDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarWebDelegate.swift; sourceTree = "<group>"; };
+		A4D4A2E62A117C8200632111 /* FieldValueHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FieldValueHandler.swift; sourceTree = "<group>"; };
+		A4DBE75B2829598200D8404D /* MainNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		BD9FA9152388BEB8D0D08B6E /* Pods-UGO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UGO.release.xcconfig"; path = "Target Support Files/Pods-UGO/Pods-UGO.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A4D254D527FDE0C1002D1034 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB9ED3BA28EE16CDC88CA32 /* Pods_UGO.framework in Frameworks */,
+				A4DBE7562825104100D8404D /* InputMask in Frameworks */,
+				A4DBE7432824DA4E00D8404D /* UGOUIKit in Frameworks */,
+				A4DBE7582825133A00D8404D /* UGOCore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		160C9C872D0066DE0599864F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08F48152BDA712BF7E8DB0C8 /* Pods-UGO.debug.xcconfig */,
+				BD9FA9152388BEB8D0D08B6E /* Pods-UGO.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		A4AF1AD72A11FDCD008410D2 /* CarInfoModule */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF1AE62A120B26008410D2 /* TableDataSource */,
+				A4AF1AE12A12074A008410D2 /* Model */,
+				A4AF1AE02A11FE13008410D2 /* View */,
+				A4AF1ADB2A11FDF3008410D2 /* Controller */,
+				A4AF1AD82A11FDD8008410D2 /* ViewModel */,
+			);
+			path = CarInfoModule;
+			sourceTree = "<group>";
+		};
+		A4AF1AD82A11FDD8008410D2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF1AD92A11FDE4008410D2 /* CarInfoViewModel.swift */,
+				A4AF1AE42A120769008410D2 /* Convertible.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A4AF1ADB2A11FDF3008410D2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF1ADC2A11FE00008410D2 /* CarInfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4AF1AE02A11FE13008410D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF1ADE2A11FE0F008410D2 /* CarInfoView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4AF1AE12A12074A008410D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF1AE22A120754008410D2 /* Car.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A4AF1AE62A120B26008410D2 /* TableDataSource */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF1AE72A120B34008410D2 /* CarInfoTableDataSource.swift */,
+			);
+			path = TableDataSource;
+			sourceTree = "<group>";
+		};
+		A4AF1AE92A120DC2008410D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF1AEA2A120DCA008410D2 /* LoadingView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4D254CF27FDE0C1002D1034 = {
+			isa = PBXGroup;
+			children = (
+				A4D254F327FDE1DB002D1034 /* UGOUIKit */,
+				A4D254EF27FDE18C002D1034 /* UGOCore */,
+				A4D254DA27FDE0C1002D1034 /* UGO */,
+				A4D254D927FDE0C1002D1034 /* Products */,
+				A4D254F027FDE19F002D1034 /* Frameworks */,
+				160C9C872D0066DE0599864F /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		A4D254D927FDE0C1002D1034 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4D254D827FDE0C1002D1034 /* UGO.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A4D254DA27FDE0C1002D1034 /* UGO */ = {
+			isa = PBXGroup;
+			children = (
+				A4DBE7592829596000D8404D /* Views */,
+				A4DBE7442824EF3200D8404D /* Modules */,
+				A4D254DB27FDE0C1002D1034 /* AppDelegate.swift */,
+				A4D254DF27FDE0C1002D1034 /* ViewController.swift */,
+				A4D254E127FDE0C1002D1034 /* Main.storyboard */,
+				A4D254E427FDE0C4002D1034 /* Assets.xcassets */,
+				A4D254E627FDE0C4002D1034 /* LaunchScreen.storyboard */,
+				A4D254E927FDE0C4002D1034 /* Info.plist */,
+			);
+			path = UGO;
+			sourceTree = "<group>";
+		};
+		A4D254F027FDE19F002D1034 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6531E848644876939971E49A /* Pods_UGO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4D4A24B2A115C3100632111 /* CarModule */ = {
+			isa = PBXGroup;
+			children = (
+				A4D4A2E52A117C7300632111 /* FieldValueHandler */,
+				A4D4A2582A116FB300632111 /* CarWebDelegate */,
+				A4D4A2522A116F1F00632111 /* PopUpHandler */,
+				A4D4A24F2A115FD000632111 /* Controller */,
+				A4D4A24C2A115C4400632111 /* View */,
+			);
+			path = CarModule;
+			sourceTree = "<group>";
+		};
+		A4D4A24C2A115C4400632111 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A4D4A24D2A115C4E00632111 /* CarView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A4D4A24F2A115FD000632111 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A4D4A2502A115FDD00632111 /* CarViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A4D4A2522A116F1F00632111 /* PopUpHandler */ = {
+			isa = PBXGroup;
+			children = (
+				A4D4A2532A116F2E00632111 /* PopUpHandler.swift */,
+			);
+			path = PopUpHandler;
+			sourceTree = "<group>";
+		};
+		A4D4A2582A116FB300632111 /* CarWebDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				A4D4A2592A116FC800632111 /* CarWebDelegate.swift */,
+			);
+			path = CarWebDelegate;
+			sourceTree = "<group>";
+		};
+		A4D4A2E52A117C7300632111 /* FieldValueHandler */ = {
+			isa = PBXGroup;
+			children = (
+				A4D4A2E62A117C8200632111 /* FieldValueHandler.swift */,
+			);
+			path = FieldValueHandler;
+			sourceTree = "<group>";
+		};
+		A4DBE7442824EF3200D8404D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF1AD72A11FDCD008410D2 /* CarInfoModule */,
+				A4D4A24B2A115C3100632111 /* CarModule */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		A4DBE7592829596000D8404D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A4AF1AE92A120DC2008410D2 /* View */,
+				A4DBE75A2829596700D8404D /* AuthNavBar */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A4DBE75A2829596700D8404D /* AuthNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				A4DBE75B2829598200D8404D /* MainNavigationController.swift */,
+			);
+			path = AuthNavBar;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A4D254D727FDE0C1002D1034 /* UGO */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A4D254EC27FDE0C4002D1034 /* Build configuration list for PBXNativeTarget "UGO" */;
+			buildPhases = (
+				9B5229E9075FED996A246150 /* [CP] Check Pods Manifest.lock */,
+				A4D254D427FDE0C1002D1034 /* Sources */,
+				A4D254D527FDE0C1002D1034 /* Frameworks */,
+				A4D254D627FDE0C1002D1034 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UGO;
+			packageProductDependencies = (
+				A4DBE7422824DA4E00D8404D /* UGOUIKit */,
+				A4DBE7552825104100D8404D /* InputMask */,
+				A4DBE7572825133A00D8404D /* UGOCore */,
+			);
+			productName = UGO;
+			productReference = A4D254D827FDE0C1002D1034 /* UGO.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A4D254D027FDE0C1002D1034 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A4D254D727FDE0C1002D1034 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = A4D254D327FDE0C1002D1034 /* Build configuration list for PBXProject "UGO" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A4D254CF27FDE0C1002D1034;
+			packageReferences = (
+				A4DBE7502824F68700D8404D /* XCRemoteSwiftPackageReference "input-mask-ios" */,
+			);
+			productRefGroup = A4D254D927FDE0C1002D1034 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A4D254D727FDE0C1002D1034 /* UGO */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A4D254D627FDE0C1002D1034 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D254E827FDE0C4002D1034 /* LaunchScreen.storyboard in Resources */,
+				A4D254E527FDE0C4002D1034 /* Assets.xcassets in Resources */,
+				A4D254E327FDE0C1002D1034 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9B5229E9075FED996A246150 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UGO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A4D254D427FDE0C1002D1034 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4D254E027FDE0C1002D1034 /* ViewController.swift in Sources */,
+				A4D254DC27FDE0C1002D1034 /* AppDelegate.swift in Sources */,
+				A4AF1AE32A120754008410D2 /* Car.swift in Sources */,
+				A4D4A2E72A117C8200632111 /* FieldValueHandler.swift in Sources */,
+				A4D4A2542A116F2E00632111 /* PopUpHandler.swift in Sources */,
+				A4D4A2512A115FDD00632111 /* CarViewController.swift in Sources */,
+				A4AF1AE52A120769008410D2 /* Convertible.swift in Sources */,
+				A4AF1ADF2A11FE0F008410D2 /* CarInfoView.swift in Sources */,
+				A4AF1AEB2A120DCA008410D2 /* LoadingView.swift in Sources */,
+				A4AF1AE82A120B34008410D2 /* CarInfoTableDataSource.swift in Sources */,
+				A4D4A25A2A116FC800632111 /* CarWebDelegate.swift in Sources */,
+				A4D4A24E2A115C4E00632111 /* CarView.swift in Sources */,
+				A4AF1ADD2A11FE00008410D2 /* CarInfoViewController.swift in Sources */,
+				A4AF1ADA2A11FDE4008410D2 /* CarInfoViewModel.swift in Sources */,
+				A4DBE75C2829598200D8404D /* MainNavigationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A4D254E127FDE0C1002D1034 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D254E227FDE0C1002D1034 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A4D254E627FDE0C4002D1034 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A4D254E727FDE0C4002D1034 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A4D254EA27FDE0C4002D1034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A4D254EB27FDE0C4002D1034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A4D254ED27FDE0C4002D1034 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 08F48152BDA712BF7E8DB0C8 /* Pods-UGO.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59TS3WHRA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UGO/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.UGO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A4D254EE27FDE0C4002D1034 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD9FA9152388BEB8D0D08B6E /* Pods-UGO.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 59TS3WHRA5;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = UGO/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.UGO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A4D254D327FDE0C1002D1034 /* Build configuration list for PBXProject "UGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D254EA27FDE0C4002D1034 /* Debug */,
+				A4D254EB27FDE0C4002D1034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A4D254EC27FDE0C4002D1034 /* Build configuration list for PBXNativeTarget "UGO" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A4D254ED27FDE0C4002D1034 /* Debug */,
+				A4D254EE27FDE0C4002D1034 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A4DBE7502824F68700D8404D /* XCRemoteSwiftPackageReference "input-mask-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/RedMadRobot/input-mask-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A4DBE7422824DA4E00D8404D /* UGOUIKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UGOUIKit;
+		};
+		A4DBE7552825104100D8404D /* InputMask */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A4DBE7502824F68700D8404D /* XCRemoteSwiftPackageReference "input-mask-ios" */;
+			productName = InputMask;
+		};
+		A4DBE7572825133A00D8404D /* UGOCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = UGOCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A4D254D027FDE0C1002D1034 /* Project object */;
+}
